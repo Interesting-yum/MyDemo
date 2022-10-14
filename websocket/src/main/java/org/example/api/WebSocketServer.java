@@ -1,7 +1,7 @@
 package org.example.api;
 
 import lombok.extern.slf4j.Slf4j;
-import org.example.WebSocketServerPool;
+import org.example.util.WebSocketServerPool;
 import org.springframework.stereotype.Component;
 
 import javax.websocket.*;

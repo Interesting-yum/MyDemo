@@ -1,4 +1,4 @@
-package org.example;
+package org.example.util;
 
 import javax.websocket.Session;
 import java.io.IOException;
@@ -8,9 +8,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 /**
- * @className: org.example.WebSocketPool
- * @title: WebSocketPool
- * @description:
+ * @className: org.example.WebSocketServerPool
+ * @title: WebSocketServerPool
+ * @description: WebSocket连接池
  * @author: LiuYun
  * @datetime: 2022/10/14 14:26
  * @version: 1.0.0
@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentMap;
 public class WebSocketServerPool {
 
     private WebSocketServerPool(){}
-    
+
     /**
      * WebSocket连接池
      */
