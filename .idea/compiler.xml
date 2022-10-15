@@ -7,7 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-durable-consumer" />
+        <module name="rabbitmq-durable-provider" />
+        <module name="rabbitmq-topic-provider" />
+        <module name="rabbitmq-consumer" />
+        <module name="rabbitmq-provider" />
         <module name="websocket" />
+        <module name="rabbitmq-topic-consumer" />
+        <module name="rabbitmq-ack-consumer" />
+        <module name="rabbitmq-fanout-consumer" />
+        <module name="rabbitmq-fanout-provider" />
+        <module name="rabbitmq-ack-direct-provider" />
+        <module name="rabbitmq" />
       </profile>
     </annotationProcessing>
   </component>

@@ -5,6 +5,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-ack-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-ack-direct-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-durable-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-durable-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-fanout-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-fanout-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-topic-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-topic-provider/pom.xml" />
       </list>
     </option>
   </component>

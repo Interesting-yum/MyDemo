@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: rabbitmq-fanout-consumer
+  rabbitmq:
+    port: 5672
+    host: 127.0.0.1
+    username: guest
+    password: guest
+
+# 设置交换器名称
+mq.config.exchange: order.fanout
+
+# 短信服务队列名称
+mq.config.queue.sms: order.sms
+
+# push服务队列名称
+mq.config.queue.push: order.push
+
+# 红包服务队列名称
+mq.config.queue.red: order.red
